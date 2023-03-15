@@ -15,4 +15,4 @@ jobs:
         run: |
           docker build . --tag ghcr.io/edufdezsoy/hello-world-ghcr-test:latest
           docker run ghcr.io/edufdezsoy/hello-world-ghcr-test:latest
-          docher push ghcr.io/edufdezsoy/hello-world-ghcr-test:latest
+          docker push ghcr.io/edufdezsoy/hello-world-ghcr-test:latest
